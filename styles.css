@@ -28,3 +28,20 @@ button{
     color: black;
 }
 
+#main-title {
+    color:coral;
+}
+
+button:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: darkblue;
+}
+
+input:focus{
+    border: 2px solid coral;
+    outline: none;
+}
