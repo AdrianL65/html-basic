@@ -38,6 +38,10 @@ body{
 #features {
     text-align: center;
     padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 #features h2{
@@ -81,4 +85,20 @@ body{
 .feature p {
     color: lightgrey;
     font-size: 16px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hero button:hover {
+    background-color: #e8604a;
+    cursor: pointer;
+}
+
+#cta button:hover {
+    background-color: #e8604a;
+    cursor: pointer;
 }
